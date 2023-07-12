@@ -107,6 +107,9 @@
     </dependencies>
 
     <build>
+
+        <finalName>java-exp</finalName>
+    
         <plugins>
             <plugin>
                 <groupId>io.github.git-commit-id</groupId>
