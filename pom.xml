@@ -30,7 +30,7 @@
         <project.coverage.exclusions>placeholder</project.coverage.exclusions>
         <lombok.version>1.18.28</lombok.version>
 
-        <java.version>11.0.19</java.version>
+        <java.version>1.8</java.version>
 		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
     </properties>
     <dependencies>
