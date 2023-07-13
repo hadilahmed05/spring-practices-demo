@@ -108,7 +108,6 @@
 
     <build>
 
-        <finalName>java-exp</finalName>
     
         <plugins>
             <plugin>
@@ -225,4 +224,10 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+                <repository>
+                 <id>deploymentRepo</id>
+                 <url>http://172.29.12.42:8089/repository/demoapp-release/</url>
+                </repository>
+        </distributionManagement>
 </project>
